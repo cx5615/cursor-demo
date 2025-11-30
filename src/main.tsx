@@ -8,7 +8,7 @@ import enUS from 'antd/locale/en_US'
 import router from './router'
 import { store } from './store'
 import { i18n } from './utils/i18n'
-import './index.css'
+import './index.scss'
 
 const language = i18n.getLanguage()
 const locale = language === 'zh' ? zhCN : enUS

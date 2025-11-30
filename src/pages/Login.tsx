@@ -4,7 +4,7 @@ import { UserOutlined, LockOutlined } from '@ant-design/icons'
 import { useNavigate } from 'react-router-dom'
 import { authService } from '../utils/auth'
 import { i18n } from '../utils/i18n'
-import './Login.css'
+import './Login.scss'
 
 interface LoginFormValues {
   username: string

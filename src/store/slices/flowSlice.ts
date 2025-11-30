@@ -3,7 +3,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 export interface Node {
   id: string
   type?: string
-  data: { label: string }
+  data: Record<string, unknown>
   position: { x: number; y: number }
 }
 

@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction, createAsyncThunk } from '@reduxjs/toolkit'
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import type { Ingredient, IngredientListParams } from '../../types/ingredient'
 import { ingredientService } from '../../services/ingredientService'
 

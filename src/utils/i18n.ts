@@ -1,7 +1,7 @@
 import zhTranslations from '../locales/zh.json'
 import enTranslations from '../locales/en.json'
 
-type Language = 'zh' | 'en'
+export type Language = 'zh' | 'en'
 
 interface Translations {
   [key: string]: string

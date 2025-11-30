@@ -23,7 +23,7 @@ export const apiRequest = async (
   if (!skipAuth) {
     const user = authService.getCurrentUser()
     if (user) {
-      requestHeaders['x-chef-id'] = user.id.toString()
+      (requestHeaders as any)['x-chef-id'] = user.id.toString()
     }
   }
 

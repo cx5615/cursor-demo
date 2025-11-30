@@ -17,7 +17,7 @@ import '@xyflow/react/dist/style.css'
 import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { setNodes, setEdges, addNode, addEdge as addEdgeAction } from '../store/slices/flowSlice'
 import { i18n } from '../utils/i18n'
-import './Flow.css'
+import './Flow.scss'
 
 const { Title } = Typography
 

@@ -21,14 +21,13 @@ import {
   deleteIngredient,
 } from '../store/slices/ingredientSlice'
 import type { Ingredient, IngredientFormData } from '../types/ingredient'
-import { i18n } from '../utils/i18n'
-import './Ingredient.css'
+import './Ingredient.scss'
 
 const { Title } = Typography
 
 const Ingredient = () => {
   const dispatch = useAppDispatch()
-  const { items: data, total, current, pageSize, loading } = useAppSelector(
+  const { items: data, total, loading } = useAppSelector(
     (state) => state.ingredient
   )
 
@@ -39,8 +38,8 @@ const Ingredient = () => {
   const [editingId, setEditingId] = useState<number | null>(null)
   const [form] = Form.useForm()
 
-  const language = i18n.getLanguage()
-  const t = i18n.getTranslations(language)
+  // const language = i18n.getLanguage()
+  // const t = i18n.getTranslations(language)
 
   // 加载数据
   useEffect(() => {

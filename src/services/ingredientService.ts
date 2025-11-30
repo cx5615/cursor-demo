@@ -1,5 +1,4 @@
 import {
-  Ingredient,
   IngredientListParams,
   IngredientListResponse,
   IngredientResponse,

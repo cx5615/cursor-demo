@@ -16,7 +16,7 @@ import {
 import { authService } from '../utils/auth'
 import { i18n } from '../utils/i18n'
 import type { Language } from '../utils/i18n'
-import './MainLayout.css'
+import './MainLayout.scss'
 
 const { Header, Sider, Content } = Layout
 
