@@ -1,0 +1,11 @@
+.ingredient-page {
+  height: 100%;
+}
+
+.ingredient-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+

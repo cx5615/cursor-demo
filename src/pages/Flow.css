@@ -1,0 +1,16 @@
+.flow-page {
+  height: 100%;
+}
+
+.flow-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.flow-container {
+  height: 600px;
+  width: 100%;
+}
+
